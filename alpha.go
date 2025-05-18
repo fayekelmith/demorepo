@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func Alpha() {
-    fmt.Println("Alpha calls Beta and Gamma")
-    Beta()
+    fmt.Println("Alpha calls Gamma and Delta")
     Gamma()
+    Delta()
 }
